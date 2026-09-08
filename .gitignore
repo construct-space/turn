@@ -1,0 +1,6 @@
+# Never commit certs or any resolved (secret-bearing) config.
+certs/
+*.pem
+*.key
+turnserver.runtime.conf
+/tmp/
